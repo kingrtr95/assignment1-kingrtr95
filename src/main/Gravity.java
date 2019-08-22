@@ -11,6 +11,11 @@ public class Gravity {
 	// TODO 1: Create the main method
 	public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+        System.out.println("Enter time :");
+        double gravity = 9.8;
+        double time = scn.nextDouble();
+        double Distance = 0.0;
+        double Speed = 0.0;
 
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
