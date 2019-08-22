@@ -16,6 +16,8 @@ public class Gravity {
         double time = scn.nextDouble();
         double Distance = 0.0;
         double Speed = 0.0;
+        System.out.println("Distance: " + 0.5 * gravity * time * time);
+        System.out.println("Speed: " + gravity * time);
 
 		/* TODO 2:
 		 *   a. Declare all your necessary variables inside main method.
